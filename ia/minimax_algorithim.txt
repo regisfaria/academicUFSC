@@ -1,0 +1,2 @@
+Objetivo:
+	The maximizer tries to get the highest score possible while the minimizer tries to get the lowest score possible while minimizer tries to do opposite.

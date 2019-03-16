@@ -1,0 +1,4 @@
+- Cap 6 Russel --> Uso do MINMAX no xadres.
+
+
+- 18/09 -> Representação de conhecimento.

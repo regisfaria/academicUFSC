@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int  num, soma=0, invalido=0, x=0, nmed=0, med;
+    printf("Digite -999 para ver o resultado.\n");
+    printf("Digite um numero:\n");
+    scanf("%d", &num);
+    while(x==0)
+    {
+        if (num == -999) break;
+        if (num<0 || num%2 !=0) invalido = invalido +1;
+        else
+        {
+            soma = soma + num;
+            nmed = nmed +1;
+        }
+        med = soma/nmed;
+        printf("Digite um numero:\n");
+        scanf("%d", &num);
+    }
+    printf("A quantidade de numeros invalidos di %d.\n", maior, menor);
+    printf("A soma dos numeros pares positivos digitados = %d.", soma);
+    return(0);
+}

@@ -1,0 +1,6 @@
+Criar uma lista encadeada que aceite em seus nodos qualquer tipo de primitivo(int, char, float, ...).
+
+1 - Inserir elementos utilizando sobre-carga de construtor;
+2 - Os nodos devem ser alocados dinamicamente de acordo com o tipo passado;
+3 - Em cada nodo, deve-se saber quantos elementos de cada tipo que foram inseridos(total de cada tipo e total geral).
+4 - Usar o destrutor para liberar a memória.

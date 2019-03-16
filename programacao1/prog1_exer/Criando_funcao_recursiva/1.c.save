@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void divibin(int n, int b)
+{
+    static int r;
+    if(n!=0)
+    {
+        divibin(n/2, b);
+    }
+    r = n%2;
+    printf("%d ", r);
+    
+}
+
+int main(void)
+{
+    int x =120;
+    divibin(x,b);
+
+    return (0);
+}

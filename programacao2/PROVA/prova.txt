@@ -1,0 +1,65 @@
+-Pilares da orientação a objetos:
+	Abstração, Herança, Encapsulamento e Polimorfismo.
+
+Objetos e classes:
+	-Classes definem uma coleção de objetos agrupados por uma caracteristica essencial em comum. Possuem propriedades e comportamentos semelhantes.
+
+EX: Class   Pessoa
+              /\
+	     /  \
+	  Joao  Maria
+
+	Classes possuem atributos e metodos:
+		Private, public e protected(mais usado em herança).
+		Atributos = variaveis da classe; Metodos = funções da classe.
+
+
+Herança:
+	Uma classe herda os atributos e métodos de uma superclasse, possuindo todas suas caracteristicas e outras exclusivas de si mesmo.
+
+________________________
+EX em c++ sobre herança: 
+------------------------
+
+Class Funcionario
+{
+	protected:
+		m_nome;
+		m_salario;
+		m_nasc;
+	public:
+		int informarSalario();
+		int calcularIdade();
+};
+
+Class Gerente : Funcionario
+{
+	protected:
+		m_projeto;
+	public:
+		informarProjeto();
+};
+	 
+	A classe gerente possui todos os métodos que funcionario possui e além disso, possui exclusivamente o atributo projeto e o metodo informarProjeto.
+
+Polimorfismo:
+	Um mesmo atributo, mas com pequenas diferenças excentrico à aquela classe derivada de uma superclasse, por exemplo, um funcionario que possui "informarSalario()" e uma classe gerente derivada da classe funcionario, seu "informarSalario()" informa um salario com um acréscimo de 5%.
+
+Encapsulamento:
+	Esconder a maneira de como as coisas são implementadas(separar implementações em .hpp e .cpp).
+	Outra propriedade interessante do encapsulamento é o uso de getters e setters, que evita o acesso direto as propriedades do objeto.
+	Um exemplo com o mundo real de encapsulamento é quando apertamos o botão de ligar de uma televisão, o retorno que temos com o acionar do botão é a televisão ligando, mas internamente não sabemos oque está acontecendo para que a televisão ligue.
+
+Abstração:
+	Como o objetivo da POO é abstrair objetos do mundo real para um determinado sistema, temos que levar em consideração tres pontos importantes:
+
+1- Identidade 
+ A identidade de um objeto precisa ser unica dentro do sistema para que não haja conflitos.
+
+2- Propriedades
+ São as caracteristicas de um objeto, I.E Um cachorro tem como propriedades seu 'Tamanho', 'Raça' e 'Idade'.
+
+3- Métodos
+ São as ações que um objeto pode realizar dentro do sistema, I.E Um cachorro pode possuir metodos como latir() ou fareijar().
+
+ 

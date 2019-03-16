@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int eleva(int b, int p)
+{
+    int x, r = 0;
+    
+    for(x=0; x<p; x++)
+    {
+        r = r 
+    }
+    
+    
+    return (r);
+}
+
+int main(void)
+{
+    int z;
+    
+    
+    
+    return (0);
+}

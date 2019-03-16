@@ -1,0 +1,7 @@
+1 - Definir um problema e pensar em qual tipo de agentes para resolver o problema.
+
+organização hierarquica -> agentes comunicam entre si
+
+organização democratica -> agentes competem entre si
+
+

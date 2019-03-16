@@ -1,0 +1,22 @@
+*automato;
+
+-programa deterministico = sempre da o mesmo resultado, independentemente de quantas vezes foi rodado;
+
+- p = np, p!= np;
+
+- I9;
+
+- programar imperativamente -> ex: c, mandar o programa fazer.
+  programar informativamente -> ex: prolog, construir a basa de dados, informar o programa.
+
+-linguagem de maquina;
+-linguagem de simbolos(assembly);
+-linguagem de alto-nivel;
+
+-computação biológica -> Ozcan UCLA
+
+->Destrutor não é chamado, o sistema chama ele sozinho no fim de seu uso.
+
+-> Pilares da OO = Herança, encapsulamento, abstração e polimorfismo
+
+ 

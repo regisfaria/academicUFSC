@@ -1,0 +1,6 @@
+-> Um a.m_width(é acessivel) e um b.m_width(não acessivel) sem um qualificador antes da definição da superclass;
+- Sem qualificador, é automaticamente setado para "private";
+
+-> Usar if define se quiser incluir todos as subclasses de box;
+
+-> Protected é igual um private, mas deixa as subclasses acessarem as m_ da superclasse.(encapsulamento)
